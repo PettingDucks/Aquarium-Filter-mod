@@ -1,0 +1,54 @@
+Mods: {
+	AquariumFilter: {
+		Items: {
+			AquariumFilterItem: {
+				DisplayName: Aquarium Filter
+				Tooltip:
+					'''
+					Purifies Corruption, Crimson and Hallow blocks anywhere in the world
+					Uses Green Solution as fuel, 1 per 40 blocks by default. Right-click it to load Green Solution
+					'''
+			}
+
+			EvilAquariumFilterItem: {
+				DisplayName: Aquarium Filter (Evil)
+				Tooltip:
+					'''
+					Purifies Corruption and Crimson blocks anywhere in the world
+					Uses Green Solution as fuel, 1 per 40 blocks by default. Right-click it to load Green Solution
+					'''
+			}
+
+			HallowAquariumFilterItem: {
+				DisplayName: Aquarium Filter (Hallow)
+				Tooltip:
+					'''
+					Purifies Hallow blocks anywhere in the world
+					Uses Green Solution as fuel, 1 per 40 blocks by default. Right-click it to load Green Solution
+					'''
+			}
+		}
+
+		Tiles: {
+			AquariumFilterTile.MapEntry: Aquarium Filter
+			EvilAquariumFilterTile.MapEntry: Aquarium Filter (Evil)
+			HallowAquariumFilterTile.MapEntry: Aquarium Filter (Hallow)
+		}
+
+		Configs: {
+			AquariumFilterConfig: {
+				DisplayName: Aquarium Filter
+
+				TicksBetweenSprays: {
+					Label: Ticks between sprays
+					Tooltip: Lower is faster. 60 ticks equal 1 second, and the default of 20 is 3 sprays per second
+				}
+
+				BlocksPerGreenSolution: {
+					Label: Blocks per Green Solution
+					Tooltip: How many corrupted or hallowed blocks one Green Solution purifies. Higher means the fuel lasts longer
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,3 @@
+Adds a placeable machine that sprays the game's own Green Solution on random Corruption, Crimson or Hallow blocks anywhere in the world, so the game's normal purification does the work. It runs on Green Solution that you load by right-clicking it (1 per 40 blocks by default, changeable in the mod config), and returns any unused solution when mined. Comes in three versions: purify everything, evil only, or Hallow only.
+
+Works in single player and multiplayer.
