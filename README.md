@@ -1,6 +1,9 @@
 # Aquarium Filter
 
-A tModLoader mod for Terraria. Adds a machine that slowly cleans Corruption, Crimson and Hallow anywhere in your world.
+A tModLoader mod for Terraria. Adds a filter machine that slowly cleans Corruption, Crimson and Hallow anywhere in your world, like an automatic Clentaminator that runs on Green Solution.
+
+> [!IMPORTANT]
+> Versions before 0.4 can't load the filter in multiplayer. [Download the latest version](https://github.com/PettingDucks/Aquarium-Filter-mod/releases/latest/download/AquariumFilter.tmod) to fix it.
 
 ## Features
 
